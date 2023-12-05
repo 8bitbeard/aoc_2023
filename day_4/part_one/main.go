@@ -66,14 +66,14 @@ func main() {
     // sort.Ints(test)
     // fmt.Println(test)
     card.computeCardPoints()
-    // fmt.Println(card.winning_numbers)
-    // fmt.Println(card.card_numbers)
-    // fmt.Println(card.points)
+    fmt.Println(card.winning_numbers)
+    fmt.Println(card.card_numbers)
+    fmt.Println(card.points)
 
     all_sum += card.points
-    fmt.Println(all_sum)
+  // fmt.Println(all_sum)
 
     // fmt.Println(card)
 	}
-  // fmt.Println(all_sum)
+  fmt.Println(all_sum)
 }
